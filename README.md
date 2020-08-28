@@ -16,5 +16,60 @@ My strategy was first to draw a couple of complete bipartite graph of different 
 # Definitions
 1. Complete bipartite graph: bipartite graph where every vertex of the first set is adjacent to every vertex of the second set
 
-#Runtime
+# Runtime
 Each of three nested for loop in line 26 - 29 has to go over a list, which takes up **n** time for each for loop. Therefore, ***O(n^3)***
+
+# Examples
+Output for a complete bipartite graph containing 4 vertices on each set:
+Welcome to the complete bipartite path generator program!
+Enter the number of vertices in the first subset: 4
+Enter the number of vertices in the second subset: 4
+V1-W1-V2
+V1-W1-V3
+V1-W1-V4
+V1-W2-V2
+V1-W2-V3
+V1-W2-V4
+V1-W3-V2
+V1-W3-V3
+V1-W3-V4
+V1-W4-V2
+V1-W4-V3
+V1-W4-V4
+V2-W1-V3
+V2-W1-V4
+V2-W2-V3
+V2-W2-V4
+V2-W3-V3
+V2-W3-V4
+V2-W4-V3
+V2-W4-V4
+V3-W1-V4
+V3-W2-V4
+V3-W3-V4
+V3-W4-V4
+W1-V1-W2
+W1-V1-W3
+W1-V1-W4
+W1-V2-W2
+W1-V2-W3
+W1-V2-W4
+W1-V3-W2
+W1-V3-W3
+W1-V3-W4
+W1-V4-W2
+W1-V4-W3
+W1-V4-W4
+W2-V1-W3
+W2-V1-W4
+W2-V2-W3
+W2-V2-W4
+W2-V3-W3
+W2-V3-W4
+W2-V4-W3
+W2-V4-W4
+W3-V1-W4
+W3-V2-W4
+W3-V3-W4
+W3-V4-W4
+There are 48 paths of length 3 vertex
