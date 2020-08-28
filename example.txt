@@ -1,0 +1,20 @@
+Welcome to the complete bipartite path generator program!
+V1-W1-V2
+V1-W1-V3
+V1-W2-V2
+V1-W2-V3
+V1-W3-V2
+V1-W3-V3
+V2-W1-V3
+V2-W2-V3
+V2-W3-V3
+W1-V1-W2
+W1-V1-W3
+W1-V2-W2
+W1-V2-W3
+W1-V3-W2
+W1-V3-W3
+W2-V1-W3
+W2-V2-W3
+W2-V3-W3
+There are 18 paths of length 3 vertex
